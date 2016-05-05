@@ -2,11 +2,8 @@
 Backend for Wish List Application
 """
 
-import os
 from app import app, db
-from datetime import *
 from flask import render_template, request, redirect, url_for,jsonify,session,send_file
-
 from app.models import User, Wish, Token
 
 import json
